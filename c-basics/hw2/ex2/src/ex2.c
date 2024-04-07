@@ -1,0 +1,20 @@
+/*
+ ============================================================================
+ Name        : ex2.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	char c;
+	printf("enter an alphabet:");
+	fflush(stdout); fflush(stdin);
+	scanf("%c", &c);
+	(c=='a'|| c=='A'|| c=='e'|| c=='E'|| c=='i'|| c=='I'|| c=='O'|| c=='o'|| c=='u'|| c=='U')? printf("%c is a vowel", c): printf("%c is a constant", c);
+}
