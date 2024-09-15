@@ -1,0 +1,39 @@
+/*
+ ============================================================================
+ Name        : ex8.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	char c;
+	int a,b;
+	printf("enter operator either +,-,*,/ ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d %c %d", &a, &c, &b);
+	switch(0){
+	case'+':
+		printf("%d + %d =%d", a,b,a+b);
+		break;
+
+	case'-':
+		printf("%d - %d =%d", a,b,a-b);
+		break;
+	case'*':
+		printf("%d * %d =%d", a,b,a*b);
+		break;
+	case'/':
+		printf("%d / %d =%d", a,b,a/b);
+		break;
+	default:
+		printf("ERORR!!!");
+		break;
+	}
+
+}

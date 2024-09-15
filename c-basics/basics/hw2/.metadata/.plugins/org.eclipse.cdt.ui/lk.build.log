@@ -1,0 +1,14 @@
+22:18:13 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:5:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for( i=0;i>=(unsigned short)0;i++);
+  ^~~
+..\src\lk.c:6:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+  {
+  ^
+gcc -o lk.exe "src\\lk.o" 
+
+22:18:14 Build Finished. 0 errors, 1 warnings. (took 566ms)
+

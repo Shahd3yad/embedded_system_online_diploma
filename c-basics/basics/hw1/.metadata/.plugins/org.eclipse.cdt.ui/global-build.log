@@ -1,0 +1,109 @@
+19:26:27 **** Rebuild of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
+19:26:32 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+..\src\ex7.c: In function 'main':
+..\src\ex7.c:28:19: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+    printf("sum = %ul", factorial);
+                   ^
+..\src\ex7.c:20:7: warning: 'i' is used uninitialized in this function [-Wuninitialized]
+    if (i==0)
+       ^
+gcc -o ex7.exe "src\\ex7.o" 
+19:27:15 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+..\src\ex7.c: In function 'main':
+..\src\ex7.c:30:23: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+        printf("sum = %ul", factorial);
+                       ^
+..\src\ex7.c:20:7: warning: 'i' is used uninitialized in this function [-Wuninitialized]
+    if (i==0)
+       ^
+gcc -o ex7.exe "src\\ex7.o" 
+19:29:13 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+..\src\ex7.c: In function 'main':
+..\src\ex7.c:30:25: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   printf("factorial = %lu", factorial);
+                         ^
+gcc -o ex7.exe "src\\ex7.o" 
+19:29:41 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+..\src\ex7.c: In function 'main':
+..\src\ex7.c:30:24: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   printf("factorial = %ul", factorial);
+                        ^
+gcc -o ex7.exe "src\\ex7.o" 
+Info: Nothing to build for ex7
+Info: Nothing to build for ex7
+19:30:28 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+..\src\ex7.c: In function 'main':
+..\src\ex7.c:30:24: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   printf("factorial = %u", factorial);
+                        ^
+gcc -o ex7.exe "src\\ex7.o" 
+19:30:45 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+..\src\ex7.c: In function 'main':
+..\src\ex7.c:30:24: warning: unknown conversion type character 'w' in format [-Wformat=]
+   printf("factorial = %w", factorial);
+                        ^
+..\src\ex7.c:30:10: warning: too many arguments for format [-Wformat-extra-args]
+   printf("factorial = %w", factorial);
+          ^~~~~~~~~~~~~~~~
+gcc -o ex7.exe "src\\ex7.o" 
+19:30:58 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+..\src\ex7.c: In function 'main':
+..\src\ex7.c:30:10: warning: too many arguments for format [-Wformat-extra-args]
+   printf("factorial = ", factorial);
+          ^~~~~~~~~~~~~~
+gcc -o ex7.exe "src\\ex7.o" 
+19:31:07 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+..\src\ex7.c: In function 'main':
+..\src\ex7.c:30:23: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   printf("factorial =%u ", factorial);
+                       ^
+gcc -o ex7.exe "src\\ex7.o" 
+Info: Nothing to build for ex7
+19:32:06 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+..\src\ex7.c: In function 'main':
+..\src\ex7.c:30:24: warning: unknown conversion type character 'l' in format [-Wformat=]
+   printf("factorial =%llu ", factorial);
+                        ^
+..\src\ex7.c:30:10: warning: too many arguments for format [-Wformat-extra-args]
+   printf("factorial =%llu ", factorial);
+          ^~~~~~~~~~~~~~~~~~
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:36:11 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+..\src\ex7.c: In function 'main':
+..\src\ex7.c:30:24: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'unsigned int' [-Wformat=]
+   printf("factorial =%lu ", factorial);
+                        ^
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:36:24 **** Incremental Build of configuration Debug for project ex7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status

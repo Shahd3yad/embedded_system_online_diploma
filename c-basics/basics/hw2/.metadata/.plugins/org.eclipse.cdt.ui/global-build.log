@@ -1,0 +1,245 @@
+21:45:59 **** Rebuild of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+Info: Nothing to build for ex8
+21:46:09 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:5:15: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     int i = (1, 2, 3);
+               ^
+..\src\lk.c:5:18: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     int i = (1, 2, 3);
+                  ^
+gcc -o lk.exe "src\\lk.o" 
+21:46:31 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:5:5: warning: unused variable 'b' [-Wunused-variable]
+ int b;
+     ^
+gcc -o lk.exe "src\\lk.o" 
+21:46:49 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:6:2: warning: statement with no effect [-Wunused-value]
+ a== 1;
+ ~^~~~
+..\src\lk.c:5:5: warning: unused variable 'b' [-Wunused-variable]
+ int b;
+     ^
+gcc -o lk.exe "src\\lk.o" 
+21:48:31 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+21:49:56 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+21:50:13 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:7:8: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+ printf(y);
+        ^
+In file included from ..\src\lk.c:1:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+gcc -o lk.exe "src\\lk.o" 
+21:50:35 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+21:53:11 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+21:54:22 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+21:54:48 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:4:16: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
+ printf("%d", 1 << 2 + 3 << 4); return 0;
+                ^~
+gcc -o lk.exe "src\\lk.o" 
+22:00:38 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+22:02:00 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+22:03:06 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:6:1: error: expected ',' or ';' before 'printf'
+ printf("%d", a);
+ ^~~~~~
+..\src\lk.c:4:6: warning: unused variable 'a' [-Wunused-variable]
+ char a = '\012'
+      ^
+22:04:44 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:6:1: error: expected ',' or ';' before 'printf'
+ printf("%d", a);
+ ^~~~~~
+..\src\lk.c:4:6: warning: unused variable 'a' [-Wunused-variable]
+ char a = '\012'
+      ^
+22:05:04 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+22:07:20 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:6:9: error: stray '\342' in program
+  printf(“%d %d %d %d“, i , j , k , m);
+         ^
+..\src\lk.c:6:10: error: stray '\200' in program
+  printf(“%d %d %d %d“, i , j , k , m);
+          ^
+..\src\lk.c:6:11: error: stray '\234' in program
+  printf(“%d %d %d %d“, i , j , k , m);
+           ^
+..\src\lk.c:6:12: error: expected expression before '%' token
+  printf(“%d %d %d %d“, i , j , k , m);
+            ^
+..\src\lk.c:6:23: error: stray '\342' in program
+  printf(“%d %d %d %d“, i , j , k , m);
+                       ^
+..\src\lk.c:6:24: error: stray '\200' in program
+  printf(“%d %d %d %d“, i , j , k , m);
+                        ^
+..\src\lk.c:6:25: error: stray '\234' in program
+  printf(“%d %d %d %d“, i , j , k , m);
+                         ^
+..\src\lk.c:4:24: warning: variable 'm' set but not used [-Wunused-but-set-variable]
+  int i=0 , j=1 , k=2 , m;
+                        ^
+22:08:42 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+Info: Nothing to build for lk
+22:10:25 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+22:11:09 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+22:12:03 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+22:12:13 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+22:12:25 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+22:12:38 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+22:14:53 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:5:13: error: 'i' undeclared (first use in this function)
+ printf("%d",i);
+             ^
+..\src\lk.c:5:13: note: each undeclared identifier is reported only once for each function it appears in
+22:15:16 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+22:15:38 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+22:15:50 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+gcc -o lk.exe "src\\lk.o" 
+22:16:05 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:5:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for( i=0;i>=(unsigned short)0;i++);
+  ^~~
+..\src\lk.c:6:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+  {
+  ^
+gcc -o lk.exe "src\\lk.o" 
+22:16:34 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:5:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for( i=0;i>=(unsigned short)0;i++);
+  ^~~
+..\src\lk.c:6:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+  {
+  ^
+..\src\lk.c:7:13: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+    printf("%f\r\n",i);
+             ^
+gcc -o lk.exe "src\\lk.o" 
+22:16:40 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:5:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for( i=0;i>=(unsigned short)0;i++);
+  ^~~
+..\src\lk.c:6:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+  {
+  ^
+..\src\lk.c:7:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+    printf("%s\r\n",i);
+             ^
+gcc -o lk.exe "src\\lk.o" 
+22:18:06 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:5:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for( i=0;i>=(unsigned short)0;i++);
+  ^~~
+..\src\lk.c:6:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+  {
+  ^
+gcc -o lk.exe "src\\lk.o" 
+22:18:13 **** Incremental Build of configuration Debug for project lk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lk.o" "..\\src\\lk.c" 
+..\src\lk.c: In function 'main':
+..\src\lk.c:5:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for( i=0;i>=(unsigned short)0;i++);
+  ^~~
+..\src\lk.c:6:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+  {
+  ^
+gcc -o lk.exe "src\\lk.o" 

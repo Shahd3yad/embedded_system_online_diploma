@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main()
+{
+	for(short i=0;i>=(unsigned short)0;i++);
+printf("%d",i);
+}

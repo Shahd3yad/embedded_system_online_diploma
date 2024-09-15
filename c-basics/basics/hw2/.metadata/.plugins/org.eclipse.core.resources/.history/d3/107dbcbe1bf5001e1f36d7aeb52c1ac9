@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+	short i;
+	for( i=0;i>=(unsigned short)0;i++);
+	{
+			printf("%f\r\n",i);
+
+	}
+}
